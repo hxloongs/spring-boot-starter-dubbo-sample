@@ -10,7 +10,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 public class EchoServerImpl implements EchoService {
 
     public String echo(String str) {
-        System.out.println(str);
+        System.out.println(str+"ok");
         return str;
     }
 }
